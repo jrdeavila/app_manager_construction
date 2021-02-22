@@ -1,0 +1,16 @@
+{% extends 'layout.html'%}
+
+{% block body %}
+<div class="col-md-4 offset-4 pt-4">
+    <div class="card card-body">
+        <form action="create-quotation" method='POST'>
+            <div class="card card-body">
+                <div class="form-group">
+                    <input type='text' name='name_quotation' placeholder='Quotation Name' class='form-control'>
+                </div>
+                <button type='submit' class='btn btn-primary btn-block'>Save</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

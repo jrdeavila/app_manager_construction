@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+table{
+    text-align: center;
+}
+
+thead{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+td{
+    font-size: 16px;
+}
+
+#td-name{
+    text-align: left;
+}
+
+#td-operations{
+    width: 20%;
+}
+
+#td-total-value, #td-unit-value{
+    width: 16%;
+}
+
+
